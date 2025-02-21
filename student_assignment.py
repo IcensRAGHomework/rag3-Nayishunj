@@ -66,7 +66,7 @@ def generate_hw02(question, city, store_type, start_date, end_date):
             ]
         }
     )
-    formatted_output = json.dumps(results, indent=4, ensure_ascii=False)
+    #formatted_output = json.dumps(results, indent=4, ensure_ascii=False)
     #print('results={}'.format(formatted_output))
 
     filtered_results = []
